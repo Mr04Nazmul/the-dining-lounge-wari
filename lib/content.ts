@@ -11,4 +11,5 @@ export const gallery = [
  {id:21,category:'Interior',title:'Details worth staying for',alt:'Decorative lighting and booths at The Dining Lounge Wari'},
  {id:22,category:'Rooftop',title:'As evening arrives',alt:'Nighttime rooftop seating at the Wari restaurant'}
 ];
-export const photo = (id:number) => `/images/${String(id).padStart(2,'0')}.webp`;
+export const assetPath = (path:string) => `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${path}`;
+export const photo = (id:number) => assetPath(`/images/${String(id).padStart(2,'0')}.webp`);

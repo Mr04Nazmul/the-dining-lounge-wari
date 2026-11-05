@@ -1,0 +1,52 @@
+name: Build and publish restaurant website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: restaurant-pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_BASE_PATH: /the-dining-lounge-wari
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Check types
+        run: npm run typecheck
+      - name: Build static website
+        run: npm run build
+      - name: Verify exported assets
+        run: node scripts/verify-export.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: restaurant-static-site
+          path: out
+          retention-days: 14
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event.repository.private == false
+        with:
+          path: out
+  deploy:
+    if: github.event.repository.private == false
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
