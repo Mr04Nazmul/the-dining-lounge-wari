@@ -10,7 +10,7 @@ assert(html.includes(prefix + '/images/19.webp'), 'Hero asset has the wrong base
 const local = [...html.matchAll(/<(?:img|script|link)\b[^>]*?\b(?:src|href)="([^"#]+)"/g)]
   .map(m => m[1]).filter(x => x.startsWith('/'));
 for (const url of local) {
-  assert(!prefix || url.startsWith(prefix + '/'), 'Unprefixed asset: ' + url + '\n' + [...html.matchAll(/<(?:img|script|link)\\b[^>]*>/g)].map(m => m[0]).join('\n'));
+  assert(!prefix || url.startsWith(prefix + '/'), 'Unprefixed asset: ' + url + '\n' + [...html.matchAll(/<(?:img|script|link)\b[^>]*>/g)].map(m => m[0]).join('\n'));
   const relative = url.slice(prefix.length).split(/[?#]/)[0];
   assert(existsSync(join(root, relative)), 'Missing exported asset: ' + url);
 }
@@ -21,7 +21,7 @@ function verifyCss(dir) {
     else if (entry.name.endsWith('.css')) {
       const css = readFileSync(path, 'utf8');
       assert(!css.includes("url('/fonts/") && !css.includes('url(/fonts/'), 'Unprefixed font URL');
-      for (const match of css.matchAll(/url\\(([^)]+)\\)/g)) {
+      for (const match of css.matchAll(/url\(([^)]+)\)/g)) {
         const url = match[1].replace(/^['"]|['"]$/g, '');
         if (!url.startsWith('/') || url.startsWith('//')) continue;
         assert(!prefix || url.startsWith(prefix + '/'), 'Unprefixed CSS asset: ' + url);
