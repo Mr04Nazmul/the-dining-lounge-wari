@@ -12,3 +12,13 @@
 - Public review links and directions configured. External map only loads after click; live Google service availability not guaranteed.
 - Follow-up: browser sign-in verified; dedicated private GitHub repository created at Mr04Nazmul/the-dining-lounge-wari. Existing user repos untouched.
 - No Vercel deployment claimed. Static host deployment is tracked separately in Sites.
+
+## Luxury + Facebook update validation
+
+- Production build and TypeScript: PASS.
+- Desktop visual review: champagne/espresso hero, original rooftop inset, self-hosted font and official campaign poster loaded.
+- Offer details accordion exposes all item and eligibility conditions. Archive toggle renders exactly two earlier announcements; both explicitly not verified current.
+- Browser responsive frames 390px and 320px: body/scroll widths 375/375 and 305/305; archive expanded at 320px remains 305px wide. No horizontal overflow.
+- DOM checks: no image missing alt, no unnamed buttons. Native details controls keyboard accessible; source links and click-to-call retained.
+- Live availability is not claimed; no invented expiry, booking submission or standalone BDT99 pasta price. Public Facebook feed beyond first collaborative post did not load; no complete-feed claim.
+- Cormorant Garamond OFL subset font assets total under 90KB; hosted locally, no external font requests.

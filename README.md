@@ -34,4 +34,8 @@ Robots are intentionally `noindex,nofollow` for owner demonstration. Update meta
 ## Design
 
 Figma code-matched palette: https://www.figma.com/design/du0xGKyzcZi4lCFl73tnTc
-CSS tokens in `app/globals.css`. Georgia and system sans fonts avoid third-party font requests. No analytics, trackers or cookies configured. Google Maps loads only when requested by the visitor.
+CSS tokens in `app/globals.css`. Locally hosted OFL Cormorant Garamond and system sans fonts avoid third-party font requests. Font license bundled in public/fonts/OFL.txt. No analytics, trackers or cookies configured. Google Maps loads only when requested by the visitor.
+
+## Social offers update
+
+Official Wari Facebook page linked. American Fusion Platter BDT265 (regular BDT395) with publication date, full eligibility and call-to-confirm; original collaborative Wari campaign image. Two earlier offers are separately labelled as archived, not verified current. Includes official email and Instagram. No automatic social scraping, live inventory or invented expiry.
