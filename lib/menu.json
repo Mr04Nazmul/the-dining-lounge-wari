@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Special Wonthon 6pcs",
+    "price": 275,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Spring Roll 6pcs",
+    "price": 253,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Thai Wonthon 6pcs",
+    "price": 242,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Garlic Mushroom",
+    "price": 242,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "French Fries",
+    "price": 165,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Cheese French Fries",
+    "price": 242,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Masala Beef Cheese French Fries",
+    "price": 275,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Masala Chicken Cheese French Fries",
+    "price": 264,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Sauteed Mushroom",
+    "price": 242,
+    "category": "Soup & starters"
+  },
+  {
+    "name": "Classic Meatbox",
+    "price": 259,
+    "category": "Meatbox"
+  },
+  {
+    "name": "Dining Lounge Special Meatbox",
+    "price": 379,
+    "category": "Meatbox"
+  },
+  {
+    "name": "Meatball Meatbox",
+    "price": 359,
+    "category": "Meatbox"
+  },
+  {
+    "name": "Naga Bomb Meatbox",
+    "price": 359,
+    "category": "Meatbox"
+  },
+  {
+    "name": "Cheese Overloaded Meatbox",
+    "price": 349,
+    "category": "Meatbox"
+  },
+  {
+    "name": "Chickenroom Meatbox",
+    "price": 379,
+    "category": "Meatbox"
+  },
+  {
+    "name": "BBQ Deep Dish",
+    "price": 1045,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "The Meat Ball",
+    "price": 1062,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "The Mariana Trench",
+    "price": 1045,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "Chef Signature Deep Dish Pizza",
+    "price": 1099,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "Deep in Cheese",
+    "price": 1056,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "Chicken Tikka Deep Dish",
+    "price": 1084,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "Chicken Tikka and Meatball Deep Dish",
+    "price": 1095,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "The Pepperoni Deep Dish",
+    "price": 1089,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "The Ultimate Chicago",
+    "price": 1099,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "Pasta Basta",
+    "price": 347,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Pasta Europa",
+    "price": 358,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Pasta Polo",
+    "price": 358,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "The Steak Pasta",
+    "price": 363,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Pasta Meat ball",
+    "price": 374,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "BBQ Chicken Pasta",
+    "price": 363,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Shrimp Pasta",
+    "price": 363,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Chef Signature Pasta",
+    "price": 413,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Pasta Pure Veg",
+    "price": 325,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Tandoori Chicken Pasta",
+    "price": 391,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Extreme Spicy Pasta",
+    "price": 352,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Double Cheese pasta",
+    "price": 385,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Triple Cheese & Cream Baked Pasta",
+    "price": 430,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Pasta Peter Pan",
+    "price": 396,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "White cr\u00e8me Pasta",
+    "price": 347,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Mac and Cheese",
+    "price": 374,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Pasta 2in1",
+    "price": 430,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Spaghetti Meat ball",
+    "price": 385,
+    "category": "Deep dish pizza"
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "price": 385,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Chef Signature Spaghetti with Garlic prawn",
+    "price": 418,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Chicken mixed Chowmein",
+    "price": 231,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Szechuan Chowmein",
+    "price": 231,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Thai style Chowmein",
+    "price": 231,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Chef Signature Chowmein",
+    "price": 253,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Prawn Chowmein",
+    "price": 242,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Pad Thai Noodles",
+    "price": 231,
+    "category": "Other"
+  },
+  {
+    "name": "Chinese Coupsuey",
+    "price": 220,
+    "category": "Other"
+  },
+  {
+    "name": "American Coupsuey",
+    "price": 231,
+    "category": "Other"
+  },
+  {
+    "name": "Beef Wrap",
+    "price": 249,
+    "category": "Chicken & beef"
+  },
+  {
+    "name": "Chicken wrap",
+    "price": 229,
+    "category": "Chicken & beef"
+  },
+  {
+    "name": "Chef Signature wrap",
+    "price": 289,
+    "category": "Other"
+  },
+  {
+    "name": "Vegetable wrap",
+    "price": 176,
+    "category": "Seafood & vegetables"
+  },
+  {
+    "name": "Beef Cheese wrap",
+    "price": 299,
+    "category": "Chicken & beef"
+  },
+  {
+    "name": "Chicken Cheese wrap",
+    "price": 289,
+    "category": "Chicken & beef"
+  },
+  {
+    "name": "Vegetable Cheese Wrap",
+    "price": 264,
+    "category": "Seafood & vegetables"
+  },
+  {
+    "name": "Tibetan Sizzling Chowmein",
+    "price": 521,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Masala Chicken Tikka sizzling chowmein",
+    "price": 553,
+    "category": "Pasta & noodles"
+  },
+  {
+    "name": "Spicy fried Chicken 1 pcs",
+    "price": 149,
+    "category": "Chicken & beef"
+  },
+  {
+    "name": "Spicy Fried Chicken 2 pcs",
+    "price": 299,
+    "category": "Chicken & beef"
+  },
+  {
+    "name": "Spicy fried Chicken 4 pcs",
+    "price": 550,
+    "category": "Chicken & beef"
+  }
+]
