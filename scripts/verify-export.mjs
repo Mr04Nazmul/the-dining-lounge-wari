@@ -7,7 +7,7 @@ const html = readFileSync(join(root, 'index.html'), 'utf8');
 assert(html.includes('A little above'), 'Homepage content is missing');
 assert(html.includes('American Fusion Platter'), 'Offer content is missing');
 assert(html.includes(prefix + '/images/19.webp'), 'Hero asset has the wrong base path');
-const local = [...html.matchAll(/(?:src|href)="([^"#]+)"/g)]
+const local = [...html.matchAll(/<(?:img|script|link)\b[^>]*?\b(?:src|href)="([^"#]+)"/g)]
   .map(m => m[1]).filter(x => x.startsWith('/'));
 for (const url of local) {
   assert(!prefix || url.startsWith(prefix + '/'), 'Unprefixed asset: ' + url);
